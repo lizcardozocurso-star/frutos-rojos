@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+	/* font-family: "Rancho", cursive;*/
+/*font-family: "Roboto", sans-serif;*/
+
+
+*{
+	margin:0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body {
+    background-image: url(img/fondo3.jpg);	
+	
+}
+#nav-sociales {
+    background: linear-gradient(to bottom,  rgb(217,4,4) 0.8%,rgb(237,203,208,0.8) 100%); /*degradado*/
+    width: 100%;
+    height: 35px;
+}
+
+
+#nav-sociales ul {
+    width: 900px;
+	border: solid 1px blue;
+	margin:auto;
+		
+}
+
+#nav-sociales ul li{
+	
+    float: left;
+    list-style-type: none;
+} 
+
+
+	#contenedor {
+    margin: auto;
+    width: 900px;
+    height: auto;		
+}
+#encabezado {
+    background-image: url(img/header1.jpg);
+    height: 206px;
+}
+
+#botonera {
+    background: linear-gradient(to bottom,  rgb(217,4,4) 0.6%,rgb(237,203,208,0.6) 100%);
+    height: 50px;
+}
+#botonera ul li {
+    width: 223px;
+    border: solid 1px white;
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    text-align: center;	
+}
+
+#botonera ul li a {
+    color: rgba(249,249,249,1.00);
+    font-family: "Rancho", cursive;
+    font-size: 25px;
+	font width: 600px;
+   
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+}
+
+
+#botonera ul li a:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#centro{
+    height: 400px;
+    background-color: rgba(252,252,252,0.4);
+}
+.cajas{
+    height: 300px;
+    width: 250px;
+    float: left;
+    background-color: rgba(224,223,219,1);
+    margin: 46px 0px 0 37px;
+    border: 1px solid black;
+    border-radius: 25;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+.cajas h3{
+    color: rgba(217,4,4,1);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 7px 0 0 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+}
+.cajas p{
+    text-align: justify;
+    font-size: 17px;
+    margin: 10px;
+}
+.cajas:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#pie {
+    height: 30px;
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(202,21,227,1.00);
+    font-size: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;	
+}
